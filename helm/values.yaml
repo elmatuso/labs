@@ -2,8 +2,8 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/rh-ee-elmatuso/blabli:chart_v1'
-  tag: 'chart_v1'
+  image: 'quay.io/rh-ee-elmatuso/blabli:v2'
+  tag: 'base'
 
 service:
   servicePort: 8080
